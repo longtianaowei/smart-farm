@@ -1,0 +1,87 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <ec-canvas id="mychart-dom-smoke-gauge" canvas-id="mychart-smoke-gauge" ec="{{ ecSmoke }}"></ec-canvas>
+  <ec-canvas id="mychart-dom-co-gauge" 
+  canvas-id="mychart-co-gauge" ec="{{ ecCo }}"></ec-canvas>
+</view> -->
+<view class="header">
+	<image class="head-img" src="/images/head_bg.png"></image>
+	<text>智慧农场监控平台</text>
+</view>
+
+<view class="map-box">
+		<view class="map">
+			<image class="map1" src="/images/map.png"></image>
+			<image class="map2" src="/images/lbx.png"></image>
+			<image class="map3" src="/images/jt.png"></image>
+		</view>
+	</view>
+
+<view class="chart-box">
+    <!-- <view class="panel">
+      <image src="/images/line.png"></image>
+      <text>烟雾传感器信息</text>
+      <view class="chart">
+        <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ecSmoke }}"></ec-canvas>
+      </view>
+      <view class="panel-footer"></view>
+    </view> -->
+
+	<view class="panel">
+		<image src="/images/line.png"></image>
+		<text>烟雾传感器信息</text>
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar2" canvas-id="mychart-bar2" ec="{{ ecSmoke }}"></ec-canvas>
+		</view>
+		<view class="panel-footer"></view>
+	</view>
+
+	<view class="panel">
+		<image src="/images/line.png"></image>
+		<text>co传感器信息</text>
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar3" canvas-id="mychart-bar3" ec="{{ ecCo }}"></ec-canvas>
+		</view>
+		<view class="panel-footer"></view>
+	</view>
+
+	<!-- <view class="panel">
+		<image src="/images/line.png"></image>
+		<text>折线图 - 播放量</text>
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar4" canvas-id="mychart-bar4" ec="{{ ec4 }}"></ec-canvas>
+		</view>
+		<view class="panel-footer"></view>
+	</view>
+
+	<view class="panel">
+		<image src="/images/line.png"></image>
+		<text>饼形图 - 年龄分布</text>
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar5" canvas-id="mychart-bar5" ec="{{ ec5 }}"></ec-canvas>
+		</view>
+		<view class="panel-footer"></view>
+	</view>
+
+	<view class="panel">
+		<image src="/images/line.png"></image>
+		<text>饼形图 - 地区分布</text>
+		<view class="chart">
+			<ec-canvas id="mychart-dom-bar6" canvas-id="mychart-bar6" ec="{{ ec6 }}"></ec-canvas>
+		</view>
+		<view class="panel-footer"></view>
+	</view> -->
+
+
+	<!-- <view class="map-box">
+		<view class="map">
+			<image class="map1" src="/images/map.png"></image>
+			<image class="map2" src="/images/lbx.png"></image>
+			<image class="map3" src="/images/jt.png"></image>
+			<view class="map-chart">
+				<ec-canvas id="mychart-dom-map" canvas-id="mychart-map" ec="{{ map }}"></ec-canvas>
+			</view>
+		</view>
+	</view> -->
+
+</view>
